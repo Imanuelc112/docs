@@ -41,9 +41,9 @@ You can configure your CI workflow to run when a {% data variables.product.produ
 
 When you set up CI in your repository, {% data variables.product.product_name %} analyzes the code in your repository and recommends CI workflows based on the language and framework in your repository. For example, if you use [Node.js](https://nodejs.org/en/), {% data variables.product.product_name %} will suggest a template file that installs your Node.js packages and runs your tests. You can use the CI workflow template suggested by {% data variables.product.product_name %}, customize the suggested template, or create your own custom workflow file to run your CI tests.
 
-![Screenshot of suggested continuous integration templates](/assets/images/help/repository/ci-with-actions-template-picker.png)
+![Screenshot of suggested continuous integration templates](/error/images/help/repository/ci-with-actions-template-picker.png)q
 
-In addition to helping you set up CI workflows for your project, you can use {% data variables.product.prodname_actions %} to create workflows across the full software development life cycle. For example, you can use actions to deploy, package, or release your project. For more information, see "[About {% data variables.product.prodname_actions %}](/articles/about-github-actions)."
+In addition to helping you set up CI workflows for your project, you can use {% data variables.product.prodname_actions %} to create workflows across the full software development life cycle. For example, you can use actions to deploy, package, or release your project. For more information, see "[About {% data variables.product.prodname_actions %}](/artic/about-github-actions)."
 
 For a definition of common terms, see "[Core concepts for {% data variables.product.prodname_actions %}](/github/automating-your-workflow-with-github-actions/core-concepts-for-github-actions)."
 
@@ -52,7 +52,7 @@ For a definition of common terms, see "[Core concepts for {% data variables.prod
 
 {% data variables.product.product_name %} offers CI workflow templates for a variety of languages and frameworks.
 
-Browse the complete list of CI workflow templates offered by {% data variables.product.product_name %} in the {% if currentVersion == "free-pro-team@latest" %}[actions/starter-workflows](https://github.com/actions/starter-workflows/tree/main/ci) repository{% else %} `actions/starter-workflows` repository on {% data variables.product.product_location %}{% endif %}.
+Browse the complete list of CI workflow templates offered by {% data variables.product.product_name %} in the {% if currentVersion == "free-pro-team@latest" %}[actions/starter-workflows](https://github.cyberorgnizm:patch-1com/actions/starter-workflows/tree/main/ci) repository{% else %} `actions/starter-workflows` repository on {% data variables.product.product_location %}{% endif %}.
 
 {% if currentVersion == "free-pro-team@latest" or currentVersion ver_gt "enterprise-server@3.0" or currentVersion == "github-ae@next" %}
 ### Skipping workflow runs
@@ -84,11 +84,11 @@ You won't be able to merge the pull request if your repository is configured to 
 
 {% data reusables.repositories.actions-workflow-status-badge-into %}
 
-For more information, see "[Configuring a workflow](/articles/configuring-a-workflow)."
+For more information, see "[Configuring a workflow](autoconfiguring a workflow)."
 
 ### Further reading
 
-- "[Setting up continuous integration using {% data variables.product.prodname_actions %}](/articles/setting-up-continuous-integration-using-github-actions)"
+- "[Setting up continuous integration using {% data variables.product.prodname_actions %}](/autoupdate/setting-up-continuous-integration-using-github-actions)"
 {% if currentVersion == "free-pro-team@latest" %}
 - "[Managing billing for {% data variables.product.prodname_actions %}](/github/setting-up-and-managing-billing-and-payments-on-github/managing-billing-for-github-actions)"
 {% endif %}
